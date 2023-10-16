@@ -1,9 +1,9 @@
 # NoSQL-Challenge
 ### Instructions
 
-The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
+The UK Food Standards Agency evaluates various establishments across the United Kingdom and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
 
-#### The challenge id devided into 3 parts. 
+#### The challenge id divided into 3 parts. 
 Following are the instructions provided to complete the challenge. 
 
 ### Part 1: Database and Jupyter Notebook Set Up
@@ -11,7 +11,7 @@ Following are the instructions provided to complete the challenge.
 - Import the data provided in the establishments.json file from the Terminal. Name the database uk_food and the collection establishments. 
 - Within the notebook, import the libraries needed: PyMongo and Pretty Print (pprint).
 - Create an instance of the Mongo Client.
-- Confirm that the created the database and loaded the data properly:
+- Confirm that they created the database and loaded the data properly:
 - List the databases in MongoDB. Confirm that uk_food is listed
 - List the collection(s) in the database to ensure that establishments are there
 - Find and display one document in the establishment's collection using find_one and display with pprint.
@@ -23,7 +23,7 @@ Following are the instructions provided to complete the challenge.
 - An exciting new halal restaurant opened in Greenwich but hasn't been rated yet. The magazine has asked to include it in the analysis.
 - Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the BusinessTypeID and BusinessType fields.
 - Update the new restaurant with the BusinessTypeID you found.
-- The magazine is not interested in any establishments in Dover, so check how many documents contain the Dover Local Authority. Then, remove any establishments within the Dover Local Authority from the database, and check the number of documents to ensure they were deleted.
+- The magazine is not interested in any establishments in Dover, so check how many documents contain the Dover Local Authority. Then, could you remove any establishments within the Dover Local Authority from the database, and check the number of documents to make sure they were deleted?
 - Some of the number values are stored as strings when they should be stored as numbers.
 - Use update_many to convert latitude and longitude to decimal numbers.
 - Use update_many to convert RatingValue to integer numbers.
